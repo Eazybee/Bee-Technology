@@ -1,0 +1,245 @@
+@media screen and (min-width:1025px) and (max-width:1230px){
+    *{
+       font-size: 16px;
+    }
+    .team .cont >div >div{
+        width:15em;
+        height: 15em;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    *{
+       font-size: 14px;
+    }
+    .about .cont, .services .cont, .skills .cont{
+        padding: 0 5%;
+        width: 90%;
+    }
+   .skills .cont >div > div{
+       width: 13em;
+       height: 13em;
+    }
+    .team .cont >div >div{
+        width: 14em;
+        height: 15em;
+    }
+    
+}
+@media screen and (min-width:600px) and (max-width:900px),
+ screen and (max-width:768px){
+    *{
+       font-size: 14px;
+    }
+    .body .logo{
+        content: url("../img/BeeTek1.png");
+        width: 65px !important;
+    }
+    .body .header{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+    }
+    .header >a{
+        display:block;
+        float: right;
+        color: #b8860B;
+        font-size: 2em;
+        margin-right: .3em !important;
+        top: .1em;
+        
+    }
+    .header i{
+        color: #b8860B;
+        background-color: white;
+        display: flex;
+        padding: 0.05em .1em;
+        border-radius: 5px;
+    }
+    .header .nav{
+        transition: 1s ease-out;
+        position: fixed;
+        top:50px;
+        z-index: 4 !important;
+        left: -100%;
+    }
+    .header .nav.true{
+        left: 0;     
+     }
+    .header .nav ul{
+        width: 100%;
+    }
+    .header .nav li{
+        width: 100% ;
+        background-color:#A52A2A;
+        border-radius:0 !important;
+    }
+    .header .nav ul li a{
+        padding: .5em 3em !important;
+        font-size: 1.2em;
+        border-radius:0 !important; 
+    }
+    .header .nav ul li a:hover,.header .nav ul .active a{  top:0;
+        transition: .2s;
+        background-color:#b8860B;
+    }
+     .slider img, .contact div img{
+         width: auto;
+    }
+    .about .cont, .services .cont, .skills .cont{
+        padding: 0 5%;
+        width: 90%;
+    }
+    .skills .cont >div{
+        width: 50%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .skills .cont >div > div{
+       width: 15em;
+       height: 15em;
+    }
+    .team .cont >div {
+        width:50%;
+    }
+    .team .cont >div >div{
+        width:18em;
+        height: 18em;
+    }
+    .contact .cont textarea,.contact .cont input{
+        border-color: #B8860B;
+        color: #6E6E6E;
+        box-shadow: 0px 0px 1em -1px #8ED4F5;
+        background-color: #FFFCE3;
+    }
+    .contact div img{
+        filter: blur(1px);
+    }
+    .screen div{ 
+        width: 80%;
+     }
+}
+@media screen and (min-width:600px) and (max-width:768px){
+    
+    *{
+       font-size: 13px;
+    }
+    
+    .projects .cont >div > div{
+        width: 50%;
+    }
+    
+    
+}
+@media screen and (max-width:640px){
+    
+    @keyframes pointdown{
+        0%{
+            top: 0;
+            opacity: 0;
+        }
+        100%{
+            top: 4em;
+            opacity: 1
+        }
+    }
+}
+@media screen and (max-width:460px){
+    .slider div{
+        padding-top: 0;
+    }
+    .body >div:last-child{
+        right: .4em;
+    }
+    .screen div{
+        height: 50%;
+        width: 90%;
+    }
+    
+}
+@media screen and (min-width:400px) and (max-width:599px),screen and (max-width:399px){
+    *{
+       font-size: 12.5px;
+    } 
+    .about .cont, .services .cont, .skills .cont{
+        padding: 0 2.5%;
+        width: 95%;
+    }
+    .services .cont  >div{
+        width:100%;
+    }
+    .skills .cont >div{
+        width: 50%;
+        
+    }
+    .skills .cont >div > div{
+       width: 14em;
+       height: 14em;
+    }
+    .projects .cont >div > div{
+        width: 50%;
+    }
+    .team .cont >div {
+        width:48%;
+    }
+    .team .cont >div >div{
+        width: 14em;
+        height: 15em;
+    }
+    .contact{
+        top:1px;
+    }
+    .contact .cont input,.contact .cont textarea{
+        width: 90%;
+        margin: 0 auto 1em auto;
+    }
+    
+}
+@media screen and (max-width:499px){
+    .footer div:first-child{
+        justify-content: center;
+        padding: 0.5em 1em;
+        align-items: center;
+    }
+    .footer div:first-child div:last-child{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .footer div:first-child p:last-child{
+        padding-left: 1em;
+    }                   
+}
+@media screen and (max-width:399px){
+    *{
+        font-size: 11.5px;
+    }
+    .team .cont >div {
+        width:100%;
+    }
+    .team .cont >div >div{
+        width: 18em;
+        height: 18em;
+        margin: 1.5em auto;
+    }
+    
+}
+@media screen and (max-width:350px){
+    *{
+        font-size: 10.5px;
+    }
+    .skills .cont >div{
+        width: 100%;
+        
+    }
+    
+}
+
+
+
+
+
