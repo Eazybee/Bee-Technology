@@ -10,6 +10,9 @@
 * Copy repository link
 * git clone repositorylink.
 
+## Hosted on
+- http://beetechnology.tech/
+
 ## Built with
 1. HTML5
 2. CSS3
